@@ -70,3 +70,62 @@ automated_book_publication/
 ├── requirements.txt # All Python dependencies
 
 └── README.md # Project overview (this file)
+
+
+---
+
+## 🛠️ How to Run
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/automated_book_publication.git
+cd automated_book_publication
+```
+### 2. Set up virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+### 3. Run the pipeline
+```bash
+python main.py
+```
+
+### 4. Sample URL to test
+
+```bash
+https://en.wikisource.org/wiki/The_Gates_of_Morning/Book_1/Chapter_1
+```
+
+### Human-in-the-Loop Editing
+During the pipeline run:
+
+After AI writing and reviewing, you are prompted to edit the content manually or approve.
+Your feedback determines whether the version is stored or rewritten again.
+This loop can continue until you're satisfied.
+
+---
+
+###📦 Dependencies
+playwright
+
+chromadb
+
+openai or google-generativeai
+
+langchain (optional)
+
+beautifulsoup4
+
+pandas
+
+tqdm
+
+Install via:
+```bash
+pip install -r requirements.txt
+```
+---
+
+### 📹 Demo Video
