@@ -31,4 +31,42 @@ To build a system that:
 ---
 
 ## 🗂️ Project Structure
+automated_book_publication/
 
+├── scraping/
+
+│ └── fetch_and_screenshot.py # Scrape HTML + take screenshots
+
+├── agents/
+
+│ ├── ai_writer.py # AI Writer using OpenAI/Gemini
+
+│ ├── ai_reviewer.py # AI Reviewer + scoring
+
+│ └── rl_reward.py # Reward based on reviewer feedback
+
+├── human_loop/
+
+│ └── feedback_interface.py # Collect human edits, rerun pipeline
+
+├── versioning/
+
+│ └── chromadb_handler.py # Save, retrieve versions semantically
+
+├── utils/
+
+│ └── io.py # File read/write utilities
+
+├── data/
+
+│ ├── raw/ # Raw screenshots and HTML
+
+│ ├── processed/ # Intermediate human-reviewed outputs
+
+│ └── versions/ # Final versioned content
+
+├── main.py # Orchestration pipeline
+
+├── requirements.txt # All Python dependencies
+
+└── README.md # Project overview (this file)
