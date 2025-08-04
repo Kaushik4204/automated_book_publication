@@ -107,7 +107,7 @@ This loop can continue until you're satisfied.
 
 ---
 
-###📦 Dependencies
+##📦 Dependencies
 playwright
 
 chromadb
@@ -128,4 +128,4 @@ pip install -r requirements.txt
 ```
 ---
 
-### 📹 Demo Video
+## 📹 Demo Video
