@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor config
+.vscode/
+.idea/
+
+# Playwright browser cache
+playwright/.cache/
+*.webm
+*.png
+*.jpg
+
+# ChromaDB local storage
+chroma.db/
+*.sqlite
+
+# Data folders (raw, processed, versions)
+data/raw/
+data/processed/
+data/versions/
+
+# Output and logs
+*.log
+output/

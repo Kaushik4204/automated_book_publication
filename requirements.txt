@@ -1,0 +1,26 @@
+# Web scraping & automation
+playwright==1.43.0
+
+# OpenAI and LLMs
+openai==1.27.0
+tiktoken==0.6.0
+
+# RL and NLP utilities
+torch==2.3.0
+transformers==4.41.1
+
+# Semantic search and vector DB
+chromadb==0.4.24
+
+# Voice interface (optional)
+SpeechRecognition==3.10.1
+pyttsx3==2.90
+pyaudio==0.2.13  # Needed for microphone input (may need manual install on some systems)
+
+# Utility
+pydantic==2.7.1
+python-dotenv==1.0.1
+requests==2.31.0
+
+# LangChain if using agent-based pipelines (optional)
+langchain==0.2.1
